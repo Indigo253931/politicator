@@ -1,7 +1,77 @@
-h1, h2, h3, h4, ul, li, p {
-	text-align: center;
+.resource-background {
+	background-color: #4A90E2;
+	min-height: 100%;
+	padding-bottom: 20px;
+	margin-top: 20px;
 }
 
-ul {
+.resources-section-title {
+	padding-top: 50px;
+	color: white;
+	font-family: 'Avenir Next LT Pro Regular';
+	text-align: center;	
+}
+
+.resources-section-description {
+	color: white;
+	font-family: 'Avenir Next LT Pro Ultra Light';
 	list-style-type: none;
+	text-align: center;	
+}
+
+
+.create_form .panel-group .panel-default .panel-heading {
+   color: white;
+   background-color: #9d9d9d ;
+   border-color: #ddd;
+   font-size: 28px;
+
+}
+.container .panel-title{
+   color: white;
+   background-color: #EBEBEB;
+   border-color: #ddd;
+   padding-top: 20px;
+   font-size: 28px;
+   text-align: center;
+}
+.panel .panel-heading{
+   color: white;
+   background-color: #EBEBEB ;
+   border-color: #ddd;
+   padding: 0px 0px 0px 0px;
+
+}
+
+.resource-title {
+	font-family: 'Avenir Next LT Pro Regular';
+	color: white;
+}
+
+.panel-title a{
+	text-decoration: none;
+}
+
+.panel-title a:hover{
+	color: #373a3c;
+}
+
+.resource-description {
+	font-family: 'Avenir Next LT Pro Ultra Light';
+	font-size: 20px;
+	color: white;
+	list-style-type: none;
+}
+
+.resource-description a{
+	color: #373a3c;
+}
+
+.dt {
+	color: #C05858;
+	text-decoration: none;
+}
+
+.panel-div {
+	padding-top: 50px;
 }
